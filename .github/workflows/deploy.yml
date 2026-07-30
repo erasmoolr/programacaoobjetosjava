@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Baixar o código do Repositório
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Enviar os arquivos para o Ubuntu Server via SSH
         uses: appleboy/scp-action@master
